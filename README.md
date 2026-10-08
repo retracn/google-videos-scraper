@@ -11,6 +11,7 @@ Google Videos Scraper is an Apify Actor that returns Google's video results for 
 - One row per video: title, URL, platform, channel, duration (and seconds), upload date, snippet, YouTube ID and thumbnail.
 - Filters: duration (under 4 minutes, 4–20 minutes, over 20) and time.
 - Any country and language, up to 300 videos per search.
+- Monitoring: with Only new results on, a scheduled run returns only videos earlier runs didn't, for new-video alerts on any topic or brand.
 - Price: $1 per 1,000 videos.
 
 ## Example input
